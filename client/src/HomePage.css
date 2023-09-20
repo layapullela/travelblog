@@ -1,0 +1,61 @@
+/* Position and style for Bryce pin */
+.pin-button-bryce {
+  position: absolute;
+  top: 32%;
+  left: 30%;
+}
+
+/* Position and style for Zion pin */
+.pin-button-zion {
+  position: absolute;
+  top: 34%;
+  left: 28%;
+}
+
+/* Styles for captions */
+.pin-caption-zion {
+  position: absolute;
+  top: 105%;  /* or any other value */
+  left: 0%;  /* or any other value */
+  width: 50%; 
+  height: 20%;
+  font-family: 'Courier';
+}
+
+.pin-caption-bryce {
+  position: absolute;
+  top: -35%;  /* or any other value */
+  left: 0%;  /* or any other value */
+  width: 50%; 
+  height: 20%;
+  font-family: 'Courier';
+}
+
+.pin-button-bryce:hover {
+  opacity: 0.7;  /* You can adjust the opacity */
+  cursor: pointer;
+  transition: opacity 0.3s ease;  /* Optional: Adds a smooth transition */
+}
+
+/* Hover effect for Zion pin */
+.pin-button-zion:hover {
+  opacity: 0.7;  /* You can adjust the opacity */
+  cursor: pointer;
+  transition: opacity 0.3s ease;  /* Optional: Adds a smooth transition */
+}
+
+/* Styles for .image-container remain the same */
+.image-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(244, 240, 230);
+  background-image: url('./map/usamap.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: 75%;
+  overflow: hidden;
+}
